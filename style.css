@@ -64,3 +64,104 @@ hr{
 button:hover {
     background-color:hsl(0, 100%, 90%);
  }
+#donate-plan{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+#card{
+    display: flex;
+    margin-left:30px;
+    margin-top: 50px;
+    
+    
+}
+#card-item-left{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    background-color:#DCDCDC;
+    margin-right: 20px;
+    padding:10px;
+    
+}
+#card-item-middle{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    background-color:#F0F8FF;
+    margin-right: 20px;
+    padding:10px;
+}
+#card-item-right{
+    width: 30%;
+    height: 300px;
+    background-color:#F0FFF0;
+    padding:10px;
+
+}
+#receved-alart{
+    background-color: black;
+    width: 100%;
+    height: 220px;
+    margin-top: 100px;
+}
+#receved-alart-heading{
+    font-size:30px;
+    text-align: center;
+    color: #F0F8FF;
+    padding-top: 5px;
+}
+#email-input{
+    width: 500px;
+    height: 30px;
+    margin-left: 100px;
+}
+#singup-button{
+    width: 500px;
+    height: 36px;
+    margin-left: 10px;
+
+}
+
+
+
+#gallery-heding-text{
+    margin-top:100px;
+    font-size:30px;
+    margin-left: 70px;
+
+}
+#gallery-div{
+    display: flex;
+    margin-left: 70px;
+}
+#gallery-item-left{
+    width: 30%;
+    height: 500px;
+    margin-right: 20px;
+    
+
+}
+#gallery-item-middle{
+    width: 30%;
+    height: 500px;
+    margin-right: 20px;
+    
+
+}
+#gallery-item-right{
+    width: 30%;
+    height: 500px;
+   
+
+
+}
+footer{
+    text-align: center;
+    width:100%;
+    height:200px;
+    background-color: #483D8B;
+}
