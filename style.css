@@ -6,18 +6,17 @@ body{
 .banner{
     background-image: url(images/donation13.jpg);
     background-repeat:no-repeat;
-    background-size: 100% ;
-    
+    background-size: 100% ;    
 }
-#banner-text{
+.banner-text{
     text-align: center;
     color: aliceblue;
-    padding: 75px 300px 150px 300px;
+    font-size:150%;
+    padding: 10%;   
 }
-#banner-heading{
-    font-size: 42px;
-}
-#banner-button{
+
+    
+.banner-button{
     width: 130px;
     height: 43px;
     border-radius:10px;
@@ -26,22 +25,19 @@ body{
 }
 #banner-a{
     text-decoration: none;
-    color: aliceblue;
+    color:aliceblue;
 }
 #donate-section{
     text-align: center;
-    margin-top: 70px;
-    padding-left:200px;
-    padding-right: 200px;
+    margin-top:60px;
+    padding: 5%;
     font-size:25px;
 }
 .donate-amount{
     width:80px;
     height: 50px;
     margin: 10px;
-    
-    
-   
+      
 }
 #donate-input {
     border: 0px solid;  
@@ -65,71 +61,57 @@ hr{
     border-radius:5px;
     background-color:rgba(255, 99, 71, 1);
     font-weight: 700;
+    margin-top: 5%;
     color:white;
 }
 button:hover {
     background-color:hsl(0, 100%, 90%);
  }
-#donate-plan{
+.donate-plan{
     text-align: center;
-    margin-top: 150px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 20%;
+    margin-right: 20%;
     font-size: 25px;
     
 }
-#card{
+.card{
     display: flex;
-    margin-left:30px;
-    margin-top: 50px;
-    
-    
+    gap: 20px;
+    text-align: center;
+    height: 100%;   
 }
-#card-item-left{
-    width: 30%;
-    height: 300px;
+.card-item{
     box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
     background-color:#DCDCDC;
-    margin-right: 20px;
     padding:10px;
-    
+   
 }
-#card-item-middle{
-    width: 30%;
-    height: 300px;
-    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
-    background-color:#F0F8FF;
-    margin-right: 20px;
-    padding:10px;
-}
-#card-item-right{
-    width: 30%;
-    height: 300px;
-    background-color:#F0FFF0;
-    padding:10px;
-
-}
-#receved-alart{
+.receved-alart{
     background-color: black;
     width: 100%;
-    height: 220px;
-    margin-top: 100px;
+   height: 10%;
+   margin-top: 10%;
+   padding-bottom: 5%;
+    
+    
 }
-#receved-alart-heading{
-    font-size:30px;
+.receved-alart-heading{
+    font-size:2rem;
     text-align: center;
     color: #F0F8FF;
-    padding-top: 5px;
+    padding-top: 3%;
 }
-#email-input{
-    width: 500px;
-    height: 30px;
-    margin-left: 100px;
+.input-feld{
+    text-align: center;
 }
-#singup-button{
-    width: 500px;
-    height: 36px;
-    margin-left: 10px;
+#input-email{
+    width: 40%;
+    height:30px;
+    
+}
+#input-button{
+    width: 40%;
+    height:36px;
 
 }
 
@@ -141,31 +123,17 @@ button:hover {
     margin-left: 70px;
 
 }
-#gallery-div{
+.gallery-div{
     display: flex;
-    margin-left: 70px;
-}
-#gallery-item-left{
-    width: 30%;
-    height: 500px;
-    margin-right: 20px;
+    justify-content: center;
+    gap: 10px;
     
-
 }
-#gallery-item-middle{
-    width: 30%;
+.gallery-item{
     height: 500px;
-    margin-right: 20px;
-    
 
 }
-#gallery-item-right{
-    width: 30%;
-    height: 500px;
-   
 
-
-}
 footer{
     text-align: center;
     width:100%;
@@ -201,3 +169,28 @@ footer{
     background: #125688;
     color: white;
   }
+
+@media only screen and (max-width:600px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        height: 100%;
+        gap: 25px;
+
+    }
+    .receved-alart {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10%;
+
+    }
+    .gallery-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+
+	
+}
